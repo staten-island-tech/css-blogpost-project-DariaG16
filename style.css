@@ -1,8 +1,9 @@
-body{
-    background-color: orchid;
-    color: blueviolet;
-    font-size: 30px;
+body {
+  background-color: orchid;
+  color: blueviolet;
+  font-size: 10px;
 }
-h1{
-    color: darkviolet;
+.smh {
+  color: darkviolet;
+  text-align: center;
 }
