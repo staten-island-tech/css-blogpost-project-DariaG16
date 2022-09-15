@@ -1,9 +1,9 @@
 body {
   background-color: orchid;
-  color: blueviolet;
-  font-size: 10px;
+  font-family: "Lora", serif;
 }
 .smh {
+  margin: top 50px;
   color: darkviolet;
   text-align: center;
 }
