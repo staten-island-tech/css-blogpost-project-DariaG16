@@ -15,15 +15,19 @@ body {
   color: darkviolet;
   text-align: center;
 }
-.left {
-  border: 3px solid purple;
-  position: static;
+.column {
+  float: left;
+  width: 33.33%;
+  background-color: rgb(255, 164, 244);
+  padding: -30px;
 }
-.center {
-  border: 3px solid purple;
-  flex: auto;
+.row:after {
+  display: table;
+  clear: both;
 }
-.right {
-  border: 3px solid purple;
-  width: 33vw;
+.columns {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  color: purple;
 }
