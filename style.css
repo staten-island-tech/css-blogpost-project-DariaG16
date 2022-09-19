@@ -16,18 +16,15 @@ body {
   text-align: center;
 }
 .column {
-  float: left;
-  width: 33.33%;
+  width: 33%;
   background-color: rgb(255, 164, 244);
-  padding: -30px;
-}
-.row:after {
-  display: table;
-  clear: both;
+  margin: auto;
 }
 .columns {
   text-align: center;
   font-weight: bold;
   font-size: 20px;
   color: purple;
+  padding: 50px;
+  border: 5px rgb(65, 27, 64);
 }
