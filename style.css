@@ -16,29 +16,34 @@ body {
   text-align: center;
 }
 .titles {
+  margin-top: 10px;
+  margin-bottom: 70px;
   font-size: 40px;
 }
 .column {
   width: 33%;
-  background-color: rgb(255, 164, 244);
+  height: 900px;
+  background-color: hotpink;
   margin: auto;
   margin-top: 30px;
   text-align: center;
   font-weight: bold;
   font-size: 20px;
-  color: purple;
+  color: rgb(116, 0, 99);
   padding: 20px;
   border-radius: 30px;
+  background-image: url("https://sc01.alicdn.com/kf/HTB1PnwTboCF3KVjSZJn762nHFXaB.png");
+  background-position: 50%, 25%;
+  background-size: auto 939px;
 }
 .paragraphs {
-  margin: 50px;
+  background-color: hotpink;
+  margin-left: 50px;
+  margin-right: 50px;
 }
-.vending {
+
+.links {
   position: absolute;
-  top: 300px;
-  right: 10px;
-}
-.vending2 {
-  position: absolute;
-  top: 300px;
+  top: 79px;
+  left: 50px;
 }
