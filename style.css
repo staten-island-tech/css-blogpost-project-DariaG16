@@ -1,11 +1,14 @@
 body {
-  background-color: orchid;
+  background-image: url(img/Fruits.png);
+  background-position: center;
+  background-size: 3000px;
   font-family: "Lora", serif;
 }
 .smh {
   margin-top: 35px;
   font-size: 50px;
   color: darkviolet;
+  background-color: rgb(255, 160, 206);
   text-align: center;
   margin-bottom: 10px;
 }
@@ -13,12 +16,15 @@ body {
   margin-top: 10px;
   font-size: 40px;
   color: darkviolet;
+  background-color: rgb(255, 160, 206);
   text-align: center;
 }
 .titles {
   margin-top: 10px;
   margin-bottom: 70px;
   font-size: 40px;
+  background-color: rgb(255, 104, 189);
+  border-radius: 30px;
 }
 .column {
   width: 33%;
@@ -30,20 +36,55 @@ body {
   font-weight: bold;
   font-size: 20px;
   color: rgb(116, 0, 99);
-  padding: 20px;
+  padding-left: 45px;
+  padding-right: 50px;
   border-radius: 30px;
   background-image: url("https://sc01.alicdn.com/kf/HTB1PnwTboCF3KVjSZJn762nHFXaB.png");
   background-position: 50%, 25%;
-  background-size: auto 939px;
+  background-size: auto 930px;
 }
 .paragraphs {
   background-color: hotpink;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: 0px;
+  margin-right: 160px;
 }
 
-.links {
+.images {
+  width: 320px;
+  margin-right: 160px;
+  margin-top: 0px;
+}
+
+.link1 {
   position: absolute;
-  top: 79px;
-  left: 50px;
+  top: 900px;
+  left: 600px;
+  background-color: #ff71b6;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+}
+.link2 {
+  position: absolute;
+  top: 1830px;
+  left: 600px;
+  background-color: #ff71b6;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+}
+.link3 {
+  position: absolute;
+  top: 2760px;
+  left: 600px;
+  background-color: #ff71b6;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
 }
